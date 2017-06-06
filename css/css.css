@@ -1,0 +1,300 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+html, body {
+  height: 100%;
+  font-size: 62.5%;
+  background: #fafafa; }
+
+.title {
+  height: 86px;
+  width: 100%;
+  text-align: center;
+  line-height: 86px;
+  font-size: 2.0rem; }
+
+.text {
+  width: 80%;
+  height: 38px;
+  border: 1px solid #b6b6b6;
+  border-radius: 80px;
+  margin-left: 10%;
+  background: #fff; }
+  .text .mobile_num {
+    margin-left: 7%;
+    border: none;
+    height: 26px;
+    width: 65%;
+    margin-top: 6px;
+    border-right: 1px solid #b4b4b4;
+    float: left;
+    outline: none; }
+  .text .auth {
+    float: left;
+    height: 38px;
+    width: 25%;
+    line-height: 38px;
+    text-align: center;
+    color: #000;
+    font-weight: 500;
+    font-size: 1.0rem; }
+
+.text_code {
+  margin-top: 25px; }
+  .text_code .code {
+    border-right: none; }
+
+.text_font {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #a8a8a8;
+  font-size: 1.2rem; }
+
+.text_button {
+  background: #f5aba5;
+  font-size: 2.0rem;
+  text-align: center;
+  line-height: 38px;
+  color: #fff; }
+
+.account {
+  color: #606f7d;
+  margin-top: 20px; }
+
+.verify {
+  display: none;
+  color: red; }
+
+.way {
+  width: 80%;
+  height: 150px;
+  position: fixed;
+  left: 50%;
+  bottom: 5%;
+  margin-left: -40%; }
+  .way .icon {
+    height: 40px;
+    width: 20%;
+    float: left;
+    font-family: 'iconfont';
+    text-align: center;
+    line-height: 40px;
+    font-size: 2.4rem; }
+    .way .icon .rest_log {
+      width: 40px;
+      height: 40px;
+      margin: 0 auto;
+      border-radius: 100%; }
+    .way .icon ._We {
+      border: 1px solid #47af37;
+      color: #47af38; }
+    .way .icon ._QQ {
+      border: 1px solid #090909;
+      color: #090906; }
+    .way .icon ._Micr {
+      border: 1px solid #bbaea5;
+      color: #bbaea5; }
+    .way .icon ._e-mail {
+      border: 1px solid #85ae7f;
+      color: #85ae7f; }
+
+.index_content {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  left: 0;
+  top: 0; }
+  .index_content .index_tit {
+    width: 100%;
+    height: 50px;
+    background: #d13f3d;
+    font-family: 'iconfont';
+    text-align: center; }
+    .index_content .index_tit .index_user {
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      font-size: 2.6rem;
+      color: #fff;
+      float: left; }
+    .index_content .index_tit .index_search {
+      height: 40px;
+      width: 80%;
+      float: left;
+      margin-top: 5px;
+      border-radius: 6px;
+      background: #f2fff6; }
+      .index_content .index_tit .index_search .index_icon_ser {
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        color: #969696;
+        font-size: 2.2rem;
+        float: left;
+        background: #f2fff6;
+        border-radius: 6px; }
+      .index_content .index_tit .index_search .index_ser_box {
+        border: none;
+        float: left;
+        height: 40px;
+        width: 80%;
+        outline: none;
+        background: #f2fff6; }
+  .index_content .index_menu {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #efefef; }
+    .index_content .index_menu .index_menu_ {
+      width: 14%;
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+      font-family: 'iconfont';
+      float: left;
+      font-size: 2.0rem;
+      background: #f4f4f4; }
+    .index_content .index_menu .index_menu_ico {
+      width: 15%;
+      box-shadow: -2px 0 0 #666; }
+
+.index_list {
+  margin-top: 120px; }
+
+.index_con {
+  width: 90%;
+  margin: 0 auto;
+  list-style: none;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  height: auto; }
+  .index_con .index_li_l {
+    width: 60%;
+    float: left; }
+    .index_con .index_li_l a {
+      text-decoration: none; }
+    .index_con .index_li_l .index_li_tit {
+      font-size: 1.6rem;
+      color: #000; }
+    .index_con .index_li_l .index_con_l {
+      margin-top: 30px; }
+      .index_con .index_li_l .index_con_l span {
+        font-size: 1.2rem; }
+    .index_con .index_li_l .index_con_r {
+      float: right;
+      margin-right: 5px;
+      height: 16px;
+      width: 30px;
+      border-radius: 5px;
+      border: 1px solid #cdcdcd;
+      text-align: center;
+      line-height: 16px;
+      font-family: 'iconfont';
+      margin-top: -20px; }
+  .index_con .index_li_r {
+    width: 40%;
+    float: left; }
+
+.index_menu_bott {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  left: 0;
+  bottom: 0; }
+  .index_menu_bott .index_menu_bott_ {
+    font-family: 'iconfont';
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    font-size: 2.5rem;
+    background: #f4f4f4; }
+
+.reg_tit {
+  margin-top: 20px; }
+  .reg_tit .reg_return {
+    font-family: 'iconfont';
+    font-size: 2.4rem;
+    color: #525252; }
+  .reg_tit .reg_tit_ {
+    text-align: center;
+    margin-top: -26px;
+    font-size: 2.0rem;
+    color: #525252; }
+
+.reg_username {
+  height: 50px;
+  width: 100%;
+  background: #ededed;
+  border: none;
+  border-bottom: 1px solid #c8c8c8;
+  border-top: 1px solid #dbdbdb;
+  text-indent: 20px;
+  margin-top: 25px; }
+
+.reg_mobile {
+  font-size: 1.8rem;
+  line-height: 60px;
+  text-indent: 20px; }
+
+.reg_password {
+  height: 50px;
+  width: 100%;
+  background: #ededed;
+  border: none;
+  border-bottom: 1px solid #c8c8c8;
+  border-top: 1px solid #dbdbdb;
+  text-indent: 20px; }
+
+.reg_password_ {
+  height: 50px;
+  width: 100%;
+  background: #ffffff;
+  border: none;
+  border-bottom: 1px solid #c8c8c8;
+  text-indent: 20px;
+  line-height: 50px;
+  font-size: 1.8rem; }
+
+.reg_btn_ {
+  height: 50px;
+  width: 80%;
+  margin: 0 auto;
+  background: #ff8200;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  font-size: 2.2rem;
+  border: 1px solid #e86b0f;
+  margin-top: 50px; }
+
+.det_tit {
+  text-align: center;
+  font-size: 2.0rem;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 14px; }
+
+.det_label {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 15px; }
+
+.det_img {
+  width: 90%;
+  margin: 0 auto;
+  height: auto;
+  margin-top: 20px; }
+
+.det_p {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 1.5rem; }
+
+.det_index {
+  font-family: 'iconfont';
+  position: absolute;
+  left: 15px;
+  top: 15px; }
